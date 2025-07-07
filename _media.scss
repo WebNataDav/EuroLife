@@ -1,0 +1,1449 @@
+@media screen and (max-width: 1500px) {
+  .content-wrap {
+    height: 100vh;
+  }
+
+  .layer {
+    height: 100vh;
+  }
+
+  .skewed .handle {
+    display: none;
+  }
+
+  .content-body {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .footer__logo {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .map-info__container {
+    background-size: 62%;
+  }
+
+  .footer__col {
+    flex-basis: 20%;
+  }
+
+  .footer__col--address {
+    flex-basis: 40%;
+  }
+
+  .quotes {
+    min-height: 0;
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .map-info__container {
+    background-size: 67%;
+  }
+
+  .programs__info-item {
+    margin-bottom: 7px;
+  }
+
+  .contacts__wrapper-form {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .programs__info-title {
+    font-size: 25px;
+  }
+
+  .future-block__wrapper-content {
+    margin-right: 25px;
+  }
+
+  .future-block__wrapper-img {
+    flex-basis: 50%;
+  }
+
+  .future-block__wrapper-img__item {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .map-info__container {
+    background-size: 70%;
+  }
+
+}
+
+@media screen and (max-width: 1010px) {
+  .main-benefits__text {
+    margin-top: 30px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .map-info__container {
+    background-size: 75%;
+  }
+
+  .app {
+    min-width: 700px;
+    height: 450px;
+  }
+
+  .app__text--1 {
+    right: 95px;
+  }
+
+  .content-body {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .future-block__wrapper {
+    padding-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  .future-block__wrapper-content {
+    flex-basis: 80%;
+    order: 1;
+    margin-right: 0;
+  }
+
+  .future-block__wrapper-img {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    order: 0;
+    margin-bottom: 30px;
+  }
+
+  .future-block__wrapper-img__item {
+    width: 80%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .page__title {
+    font-size: 30px;
+  }
+
+  .programs__info-title {
+    font-size: 22px;
+  }
+
+  .main-benefits__text {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .content-body {
+    width: 55%;
+  }
+
+  .top .content-body {
+    right: 10%;
+    left: 10%
+  }
+
+  .map-info__container {
+    background-size: 80%;
+  }
+
+  .benefits-page__img-item {
+    width: 400px;
+    height: 350px;
+  }
+
+  .info__content {
+    flex-basis: 70%;
+    order: 1;
+  }
+
+  .info__bg {
+    flex-basis: 30%;
+    order: 0;
+  }
+
+  .info__bg-img {
+    margin-left: 20px;
+  }
+
+  .programs__info-text {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+
+  .team-offer__img {
+    flex-basis: 40%;
+  }
+
+  .team-offer__content {
+    flex-basis: 60%;
+    margin-left: 20px;
+  }
+
+  .team-offer__img-item {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .b-game-card__cover {
+    padding: 20px 10px;
+  }
+
+  .main-benefits__text {
+    font-size: 14px;
+  }
+
+  .page {
+    padding: 100px 0;
+  }
+
+  .info__title {
+    margin-bottom: 30px;
+  }
+
+  .map-info__container {
+    background-size: 85%;
+  }
+
+  .map-info__circle--2 {
+    top: 61%;
+    left: 51%;
+  }
+
+  .map-info__content--2 {
+    top: 65%;
+    left: 45%;
+  }
+
+  .map-info__circle--1 {
+    top: 91.5%;
+    right: 55.5%;
+  }
+
+  .map-info__circle--3 {
+    top: 72%;
+    left: 60%;
+  }
+
+  .video__wrapper {
+    background-size: 60%;
+  }
+
+  .programs__info-item {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .programs__info-text {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .programs__info-item--big {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .programs__info-text--big {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .team-offer {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  .map-info__container {
+    background-size: 90%;
+  }
+
+  .app {
+    min-width: 600px;
+    height: 400px;
+  }
+
+  .app__text--1 {
+    right: 65px;
+    top: 100px;
+  }
+
+  .app__text--2 {
+    top: 200px;
+  }
+
+  .programs__info-item {
+    font-size: 10px;
+  }
+
+  .programs__info-item--big {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .team-offer__img-item {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .main-benefits__text {
+    font-size: 13px;
+  }
+
+  .programs__info-title {
+    font-size: 18px;
+  }
+
+  .info__title {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contacts__wrapper-form {
+    flex-basis: 60%;
+  }
+}
+
+@media screen and (max-width: 774px) {
+  .map-info__container {
+    background-size: 98%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .programs__info-title {
+    font-size: 25px;
+  }
+
+  .main-benefits__text {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .l-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .b-game-card {
+    width: 60%;
+    padding-bottom: 60%;
+    margin-bottom: 30px;
+  }
+
+  .b-game-card__cover {
+    width: 100%;
+    height: 400px;
+  }
+
+  .b-game-card::before {
+    height: 350px;
+    width: 55%;
+  }
+
+  .b-game-card__cover::after {
+    height: 100%;
+  }
+
+  .programs__info-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .programs__info-item {
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+
+  .programs__info-item--big {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .social__link {
+    margin-right: 10px;
+  }
+
+  .content-body {
+    width: 65%;
+  }
+
+  .control__video {
+    width: 600px;
+    height: 350px;
+  }
+
+  .quotes__title {
+    font-size: 40px;
+  }
+
+  .benefits-page__img-item {
+    width: 350px;
+    height: 300px;
+  }
+
+  .benefits-page__item {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .benefits-page__text {
+    font-size: 16px;
+  }
+
+  .footer__col {
+    flex-basis: 25%;
+    order: 1;
+  }
+
+  .footer__col-social {
+    flex-basis: 100%;
+    order: 0;
+    margin-bottom: 35px;
+    margin-top: 0;
+  }
+
+  .footer__social {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__col--address {
+    flex-basis: 50%;
+  }
+
+  .app {
+    min-width: 500px;
+    height: 350px;
+  }
+
+  .app__text--1 {
+    right: 45px;
+    top: 30px;
+  }
+
+  .contacts__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .contacts__wrapper-form {
+    flex-basis: 80%;
+    margin-top: 40px;
+  }
+
+  .contacts__wrapper-info {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .map-info__container {
+    background-size: 104%;
+  }
+
+  .benefits-page__wrapper {
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    &:first-child {
+      margin-top: 60px;
+    }
+  }
+
+  .benefits-page__img {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .benefits-page__img-item {
+    width: 80%;
+  }
+
+  .benefits-page__img--1 {
+    order: 0;
+  }
+
+  .benefits-page__content {
+    flex-basis: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+
+  .benefits-page__content--1 {
+    order: 1;
+  }
+
+  .info__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .info__content {
+    flex-basis: 100%;
+  }
+
+  .info__bg {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+
+  .info__bg-img {
+    margin-left: 0;
+  }
+
+  .team-offer__wrapper {
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .team-offer__content--order {
+    align-items: flex-start;
+  }
+
+  .team-offer__img-item {
+    margin-top: 30px;
+    width: 540px;
+    height: 300px;
+    order: 0;
+  }
+
+  .team-offer__content {
+    flex-basis: 80%;
+    margin-left: 0px;
+    order: 1;
+  }
+
+  .team-offer__content--order {
+    margin-right: 0;
+  }
+
+  .team-offer__text {
+    max-width: 500px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .b-game-card {
+    padding-bottom: 70%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .map-info__circle--2 {
+    top: 59%;
+  }
+
+  .map-info__content--2 {
+    top: 63%;
+    left: 45%;
+  }
+
+  .map-info__circle--1 {
+    top: 87.5%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 92%;
+    right: 52.5%;
+  }
+
+  .map-info__circle--3 {
+    top: 68.5%;
+    left: 60%;
+  }
+
+  .map-info__content--3 {
+    top: 72.5%;
+    left: 57%;
+  }
+
+  .page {
+    padding: 100px 0 60px;
+  }
+
+  .contacts__wrapper-info {
+    flex-basis: 60%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .social__link {
+    display: none;
+  }
+
+  .header__logo {
+    line-height: 60px;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__top {
+    padding: 0;
+  }
+
+  .content-body {
+    width: 75%;
+  }
+
+  .control__video {
+    width: 500px;
+    height: 300px;
+  }
+
+  .footer-social__link {
+    display: inline-block;
+  }
+
+  .app {
+    min-width: 400px;
+    height: 250px;
+  }
+
+  .app__text-line--4 {
+    font-size: 30px;
+  }
+
+  .app__text-line--3 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .header-btn {
+    display: flex;
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .map-info__circle--2 {
+    top: 58%;
+  }
+
+  .map-info__content--2 {
+    top: 61.7%;
+    left: 45%;
+  }
+
+  .map-info__circle--1 {
+    top: 84.5%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 89%;
+    right: 52.5%;
+  }
+
+  .map-info__circle--3 {
+    top: 66.5%;
+    left: 63%;
+  }
+
+  .map-info__content--3 {
+    top: 70%;
+    left: 57%;
+  }
+
+  .map-info__subtitle {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .b-game-card {
+    margin-bottom: 60px;
+  }
+
+  .quotes__title {
+    max-width: 450px;
+  }
+
+  .benefits-page__img-item {
+    width: 90%;
+  }
+
+  .programs__info-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer__col {
+    flex-basis: 20%;
+  }
+
+  .footer__col--address {
+    flex-basis: 45%;
+  }
+
+  .footer__col-social {
+    flex-basis: 100%;
+  }
+
+  .team-offer__img-item {
+    width: 420px;
+  }
+
+  .team-offer {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .map-info__circle--2 {
+    top: 57%;
+  }
+
+  .map-info__content--2 {
+    top: 60.7%;
+    left: 45%;
+  }
+
+  .map-info__circle--1 {
+    top: 81.5%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 85.5%;
+    right: 50.5%;
+  }
+
+  .map-info__circle--3 {
+    top: 64.5%;
+    left: 63%;
+  }
+
+  .map-info__content--3 {
+    top: 68%;
+    left: 57%;
+  }
+
+  .contacts {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  // .top .content-body {
+  //   right: 10%;
+  // }
+
+  .content-body {
+    width: 85%;
+  }
+
+  .b-game-card {
+    width: 70%;
+    padding-bottom: 80%;
+  }
+
+  .control__video {
+    width: 400px;
+    height: 250px;
+  }
+
+  .benefits-page__content {
+    max-width: 90%;
+  }
+
+  .mouse {
+    display: none;
+  }
+
+  .contacts-hero {
+    min-height: 0;
+    height: calc(80vh - 150px);
+  }
+
+  .b-game-card {
+    margin-bottom: 90px;
+  }
+
+  #wrapper {
+    min-height: 0;
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .b-game-card {
+    width: 85%;
+    padding-bottom: 90%;
+  }
+
+  .info__title {
+    max-width: 400px;
+  }
+
+  .page__title {
+    font-size: 25px;
+  }
+
+  .map-info__circle--1 {
+    top: 77.5%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 81.2%;
+    right: 42.5%;
+  }
+
+  .map-info__circle--2 {
+    top: 55.4%;
+  }
+
+  .map-info__content--2 {
+    top: 59%;
+    left: 45%;
+  }
+
+  .map-info__circle--3 {
+    top: 63.2%;
+    left: 63%;
+  }
+
+  .map-info__content--3 {
+    top: 66.7%;
+    left: 57%;
+  }
+
+  span.map-info__span {
+    margin-top: 0;
+  }
+
+  .future-block__wrapper {
+    padding-top: 30px;
+  }
+
+  .future-block__wrapper-img__item {
+    width: 90%;
+    height: 400px;
+  }
+
+  .future-block__wrapper-content {
+    flex-basis: 90%;
+  }
+
+  .video__wrapper {
+    background-position: top 50px right;
+  }
+
+  .footer__col {
+    order: 0;
+    flex-basis: 30%;
+  }
+
+  .footer__col-social {
+    order: 1;
+  }
+
+  .footer__col--address {
+    order: 2;
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+
+  .contacts__wrapper-info {
+    flex-basis: 80%;
+  }
+
+  .contacts__wrapper-form {
+    flex-basis: 90%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .layer {
+    display: none;
+  }
+
+  .skewed {
+    background-image: url("../img/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero__wrapper-container {
+    display: block;
+
+    &__title {
+      text-align: center;
+      max-width: 400px;
+      padding-top: 200px;
+      color: $primary;
+      font-size: 30px;
+      line-height: 1.2;
+    }
+  }
+
+  .quotes {
+    height: 600px;
+  }
+
+  .quotes__title {
+    font-size: 30px;
+    padding-top: 200px;
+  }
+
+  .pages__list {
+    display: none;
+  }
+
+  .app__bgimg {
+    display: none;
+  }
+
+  .app__img {
+    display: none;
+  }
+
+  .app {
+    display: none;
+  }
+
+  .app__mobile {
+    display: block;
+  }
+
+  .cont {
+    height: calc(70vh - 140px);
+  }
+
+  .app__mobile {
+    margin-top: -190px;
+  }
+
+  .app__mobile-title {
+    color: #f7e4c7;
+    text-shadow: 0px 0px 5px rgba(255, 247, 212, 0.82);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .b-game-card {
+    width: 95%;
+    padding-bottom: 105%;
+  }
+
+  .map-info__container {
+    background-size: 100%;
+  }
+
+  .map-info__circle--1 {
+    top: 73%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 77%;
+    right: 42.5%;
+  }
+
+  .map-info__circle--2 {
+    top: 54.4%;
+  }
+
+  .map-info__content--2 {
+    top: 58%;
+    left: 45%;
+  }
+
+  .map-info__circle--3 {
+    top: 60.2%;
+    left: 63%;
+  }
+
+  .map-info__content--3 {
+    top: 63.7%;
+    left: 57%;
+  }
+
+  .control__video {
+    width: 350px;
+    height: 200px;
+  }
+
+  .quotes__title {
+    max-width: 350px;
+  }
+
+  .app__mobile-title--1 {
+    font-size: 25px;
+  }
+
+  .contacts__wrapper-info {
+    flex-basis: 90%;
+  }
+
+  .form {
+    padding: 30px 30px 50px;
+  }
+
+  .contacts__textarea {
+    padding: 5px 10px;
+    height: 70px;
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 3px 5px;
+  }
+
+  .contacts__button {
+    margin-top: 20px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+
+  .team-offer__img-item {
+    width: 320px;
+  }
+
+  #wrapper {
+    min-height: calc(70vh - 140px);
+  }
+
+  .header-btn {
+    right: 15px;
+  }
+
+  .modal__title {
+    font-size: 1.2em;
+  }
+
+  .quotes {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 405px) {
+  .info__title {
+    max-width: 300px;
+  }
+
+  .b-game-card {
+    width: 100%;
+    padding-bottom: 115%;
+  }
+
+  .future-block__wrapper-img__item {
+    width: 100%;
+    height: 300px;
+  }
+
+  .future-block__wrapper-content {
+    flex-basis: 100%;
+  }
+
+  .future-block__test {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .map-info__circle {
+    width: 13px;
+    height: 13px;
+  }
+
+  .map-info__circle--1 {
+    top: 70%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 72.5%;
+    right: 42.5%;
+  }
+
+  .map-info__content__text {
+    margin-bottom: 3px;
+    font-size: 8px;
+  }
+
+  .map-info__content {
+    padding: 10px;
+  }
+
+  .map-info__content--2 {
+    top: 56.5%;
+    left: 45%;
+  }
+
+  .map-info__content--3 {
+    top: 62.5%;
+    left: 57%;
+  }
+
+  .button,
+  .programs__download {
+    font-size: 12px;
+  }
+
+  .map-info__subtitle {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  span.map-info__span {
+    font-size: 14px;
+  }
+
+  .app__mobile {
+    min-width: 350px;
+    height: 250px;
+    margin-top: -170px;
+
+    &-title {
+      font-size: 25px;
+      line-height: 1.5;
+    }
+  }
+
+  .info__bg-img {
+    width: 250px;
+  }
+
+  .app__mobile-title {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer__col {
+    order: 1;
+    flex-basis: 25%;
+  }
+
+  .footer__col-social {
+    order: 0;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .footer__col--address {
+    order: 2;
+    flex-basis: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .b-game-card {
+    padding-bottom: 130%;
+  }
+
+  .video__wrapper {
+    padding: 100px 0;
+  }
+
+  .control__video {
+    width: 300px;
+    height: 200px;
+  }
+
+  .contacts__wrapper-info {
+    flex-basis: 100%;
+  }
+
+  .contacts__wrapper-form {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero__wrapper-container__title {
+    max-width: 300px;
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .header__item {
+    font-size: 10px;
+  }
+
+  .programs__info-item {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .programs__info-text {
+    font-size: 14px;
+  }
+
+  .team-offer__img-item {
+    width: 280px;
+    height: 250px;
+  }
+
+  .team-offer__content {
+    flex-basis: 90%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .b-game-card {
+    padding-bottom: 145%;
+  }
+
+  .main-benefits__text {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .map-info__circle--1 {
+    top: 68%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 70.5%;
+    right: 35.5%;
+  }
+
+  .map-info__circle--3 {
+    top: 59%;
+    left: 63%;
+  }
+
+  .map-info__content--3 {
+    top: 61%;
+    left: 57%;
+  }
+
+  .map-info__title {
+    font-size: 24px;
+  }
+
+  .app__mobile {
+    min-width: 300px;
+    height: 250px;
+    margin-top: -170px;
+
+    &-title {
+      font-size: 23px;
+      line-height: 1.5;
+    }
+  }
+
+  .modal__dialog {
+    padding: 2.357rem 2rem 1.92rem;
+  }
+
+  .modal__close {
+    top: 5px;
+  }
+
+  .contacts-hero,
+  .about-hero {
+    height: calc(70vh - 150px);
+  }
+
+  #wrapper {
+    min-height: 0;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    font-size: 10px;
+  }
+
+  .main-benefits__text {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .page {
+    padding: 80px 0 0;
+  }
+
+  .map-info__circle--1 {
+    top: 66%;
+    right: 55.5%;
+  }
+
+  .map-info__content--1 {
+    top: 68%;
+    right: 32.5%;
+  }
+
+  .control__video {
+    width: 270px;
+    height: 180px;
+  }
+
+  .future-block {
+    padding-bottom: 80px;
+  }
+
+  .quotes {
+    height: 500px;
+  }
+
+  .quotes__title {
+    font-size: 25px;
+  }
+
+  .benefits-page__img-item {
+    height: 250px;
+  }
+
+  .benefits-page__content {
+    margin-bottom: 10px;
+  }
+
+  .benefits-page {
+    padding-bottom: 80px;
+  }
+
+  .info__content-text {
+    text-align: center;
+  }
+
+  .programs {
+    padding-bottom: 80px;
+  }
+
+  .app__mobile {
+    margin-left: 15px;
+  }
+
+  .team-offer__wrapper {
+    margin-top: 0;
+  }
+
+  .team-offer {
+    padding-bottom: 80px;
+  }
+
+  .l-container {
+    margin-bottom: 0;
+  }
+
+  .map-info {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .hero__wrapper-container__title {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (max-height: 640px) {
+
+  .about-hero,
+  .contacts-hero {
+    height: 550px;
+  }
+
+  #wrapper {
+    height: 550px;
+  }
+
+  .cont {
+    height: 550px;
+  }
+}
+
+@media screen and (max-height: 731px) {
+
+  .about-hero,
+  .contacts-hero {
+    height: 550px;
+  }
+
+  #wrapper {
+    height: 550px;
+  }
+
+  .cont {
+    height: 550px;
+  }
+}
+
+@media screen and (max-height: 823px) {
+
+  .about-hero,
+  .contacts-hero {
+    height: 550px;
+  }
+
+  #wrapper {
+    height: 550px;
+  }
+
+  .cont {
+    height: 550px;
+  }
+}
+
+@media screen and (max-height: 1366px) {
+  .contacts-hero {
+    min-height: 0;
+    height: 800px;
+  }
+
+  // #wrapper {
+  //   min-height: 0;
+  //   height: 650px;
+  // }
+}

@@ -1,0 +1,393 @@
+#wrapper {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 140px);
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  width: 100vw;
+  min-height: calc(100vh - 140px);
+  overflow: hidden;
+}
+
+.content-wrap {
+  position: absolute;
+  width: 100vw;
+  min-height: calc(100vh - 140px);
+  // color: #fff;
+  color: $primary;
+}
+
+.content-body {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  transform: translateY(-50%);
+  // color: #fff;
+  color: $primary;
+}
+
+.layer img {
+  position: absolute;
+  width: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+  color: $primary;
+}
+
+.bottom {
+  background: #222;
+  z-index: 1;
+}
+
+
+
+.bottom {
+  background-image: url('../img/building.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: $primary;
+  }
+}
+
+.top {
+  background-image: url('../img/9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // background-color: #eee;
+  color: #222;
+  z-index: 2;
+  width: 50vw;
+
+  .content-body {
+    right: 15%;
+    color: #fff;
+  }
+}
+
+.handle {
+  position: absolute;
+  height: 100%;
+  display: block;
+  background-color: $primary;
+  width: 5px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}
+
+.skewed {
+  .handle {
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%);
+    height: 200%;
+    transform-origin: top;
+  }
+}
+
+.skewed {
+  .top {
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+
+    .content-wrap {
+      transform: skew(30deg);
+      margin-left: 1000px;
+    }
+  }
+}
+
+.main-benefits {
+  padding-bottom: 100px;
+}
+
+.map-info {
+  padding: 100px 0;
+  background-color: #0d3455;
+  width: 100%;
+  height: auto;
+
+  &__title {
+    // color: #fff;
+    color: $yellow;
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    // color: #fff;
+    color: $yellow;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__container {
+    position: relative;
+    max-width: 1200px;
+    min-height: 635px;
+    background-image: url('../img/europe.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    margin: 0 auto;
+    visibility: visible;
+    animation-duration: 2.5s;
+    animation-name: zoomInDown;
+  }
+
+}
+
+.map-info__circle {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  background-color: $primary;
+  border-radius: 50%;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+
+  &--1 {
+    top: 91.5%;
+    right: 52.5%;
+  }
+
+  &--2 {
+    top: 60%;
+    left: 51%;
+  }
+
+  &--3 {
+    top: 72%;
+    left: 57%;
+  }
+}
+
+.map-info__content {
+  display: none;
+  position: absolute;
+  padding: 15px 20px;
+  background-color: $primary;
+
+  &--1 {
+    top: 96.5%;
+    right: 52.5%;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &--2 {
+    top: 64%;
+    left: 45%;
+    // height: 50px;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &--3 {
+    top: 76%;
+    left: 57%;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &__text {
+    margin-bottom: 5px;
+    font-size: 10px;
+    // color: #fff;
+    color: $yellow;
+    font-weight: 300;
+  }
+
+  // &.active {
+  //   display: block;
+  // }
+}
+
+span.map-info__span {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  // color: #fff;
+  color: $yellow;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.future-block {
+  padding-bottom: 100px;
+
+  &__wrapper {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &-content {
+      margin-right: 45px;
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      color: $dark;
+    }
+
+    &-img {
+      flex-basis: 55%;
+
+      &__item {
+        width: 550px;
+        height: 450px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.future-block {
+  &__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  &__test {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  &__span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+}
+
+.quotes {
+  margin-top: -150px;
+  width: 100%;
+  min-height: 100vh;
+
+  &__title {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #f7e4c7;
+    text-shadow: 0px 0px 5px rgba(255, 247, 212, 0.82);
+    font-size: 50px;
+    padding-top: 300px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+  }
+}
+
+.benefits-page {
+  background-color: $blue;
+  padding-bottom: 100px;
+  background-image: url('../img/worldmapdots.png');
+  // background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  &__wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__img {
+    flex-basis: 50%;
+    margin-right: 30px;
+
+    &--1 {
+      order: 1;
+      margin-right: 0;
+      // margin-left: 30px;
+      flex-basis: 40%;
+    }
+
+    &-item {
+      width: 500px;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    flex-basis: 50%;
+    max-width: 400px;
+    margin-bottom: 40px;
+
+    &--1 {
+      order: 0;
+      flex-basis: 60%;
+    }
+  }
+
+  &__span {
+    display: block;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: $primary;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    // color: #fff;
+    color: $yellow;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.5;
+    // color: #fff;
+    color: $yellow;
+  }
+}
+
+.hero__wrapper-container {
+  display: none;
+}
+
+.control__video {
+  width: 800px;
+  height: 400px;
+}
+
+.benefits__title {
+  // color: #fff;
+  color: $yellow;
+}

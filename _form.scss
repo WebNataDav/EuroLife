@@ -1,0 +1,259 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px 70px;
+  border: 2px solid $primary;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+
+}
+
+.label {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+input {
+  width: 100%;
+  color: #333;
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.contacts__label {
+  margin-bottom: 5px;
+}
+
+.button.contacts__button {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: $primary;
+    color: #fff;
+  }
+}
+
+.contacts__textarea {
+  padding: 10px 15px;
+  resize: none;
+  height: 100px;
+  width: 100%;
+  color: #333;
+  font-size: 16px;
+}
+
+.contacts__input-group {
+  position: relative;
+  margin-top: 10px;
+}
+
+div.invalid {
+  padding-bottom: 0;
+  color: red;
+  font-size: 13px;
+  position: absolute;
+  bottom: -15px;
+  border-bottom: none;
+}
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $dark;
+}
+
+.modal--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__dialog {
+  position: relative;
+  max-width: 36.36rem;
+  padding: 2.357rem 3.5rem 1.92rem;
+}
+
+.modal__close {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 28px;
+  height: 28px;
+  background: transparent url("../img/close.svg");
+  border: none;
+  outline: none;
+  margin: 0.78rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.modal__label {
+  color: $yellow;
+}
+
+.modal__input {
+  background-color: #f5e3c7;
+  border: none;
+  outline: none;
+}
+
+.modal__textarea {
+  background-color: #f5e3c7;
+}
+
+.modal__title {
+  text-align: center;
+  color: $yellow;
+  margin: 0;
+  margin-bottom: 2.428rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  line-height: 1.85rem;
+  font-weight: normal;
+}
+
+.contacts__button.modal__button {
+  background-color: $primary;
+  color: #fff;
+  border: none;
+  transition: all 0.4s;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+.input-group {
+  position: relative;
+}
+
+div.invalid {
+  padding-bottom: 0;
+  color: tomato;
+  position: absolute;
+  bottom: -18px;
+  border-bottom: none;
+}
+
+.success {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  z-index: 1000;
+}
+
+.success--visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.success--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.success__modal {
+  position: relative;
+  max-width: 40rem;
+  padding: 2.357rem 3.5rem 1.928rem;
+  color: #fff;
+  background: rgb(154, 112, 62);
+  z-index: 900;
+}
+
+.success__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.success__text {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+  font-weight: normal;
+}
+
+.success__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  margin: 12px;
+  background: transparent url("../images/close.svg") no-repeat center / 80%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.success:active {
+  outline: none;
+}
+
+.success:focus {
+  outline: none;
+}
+
+.thanks__text {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+a.thanks__link {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding-top: 30px;
+  transition: all 0.4s;
+}
+
+.thanks:hover {
+  color: rgb(154, 112, 62);
+}
+
+.contacts__form {
+  z-index: 0;
+}
+
+.header__bottom.active {
+  z-index: 100;
+}

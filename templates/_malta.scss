@@ -1,0 +1,746 @@
+// // .country {
+// //   background-color: $blue;
+// //   height: 100vh;
+// //   max-width: 100%;
+// // }
+
+// .cont__wrapper {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100vh;
+//   width: 100%;
+// }
+
+.cont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px);
+  background-image: url('../img/countries/4.jpg');
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.app {
+  position: relative;
+  min-width: 850px;
+  height: 500px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, .3);
+  overflow: hidden;
+}
+
+.app__bgimg {
+  position: absolute;
+  top: 0;
+  left: -2.5%;
+  width: 105%;
+  height: 100%;
+  transition: transform 3.5s 770ms;
+}
+
+.app__bgimg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.app__bgimg-image--1 {
+  background: url('../img/countries/4.jpeg') center center no-repeat;
+  background-size: cover;
+}
+
+.app__bgimg-image--2 {
+  background: url('../img/countries/4.jpeg') center center no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0ms 1300ms;
+  will-change: opacity;
+}
+
+.app__text {
+  position: absolute;
+  right: 165px;
+  top: 150px;
+  // font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.app__text-line {
+  transition: transform 1500ms 400ms, opacity 750ms 500ms;
+  will-change: transform, opacity;
+  user-select: none;
+  // color: #fff;
+  color: $yellow;
+}
+
+.app__text-line--4 {
+  // color: #fff;
+  color: $yellow;
+  font-family: 'Playfair Display SC', serif;
+  transition: transform 1500ms 2300ms, opacity 1500ms 3500ms;
+}
+
+.app__text-line--3 {
+  // color: #fff;
+  color: $yellow;
+  font-family: 'Playfair Display SC', serif;
+  transition: transform 1500ms 2200ms, opacity 1500ms 3250ms;
+}
+
+.app__text-line--2 {
+  transition: transform 1500ms 2100ms, opacity 1500ms 3000ms;
+}
+
+.app__text-line--1 {
+  transition: transform 1500ms 2000ms, opacity 1500ms 2750ms;
+}
+
+.app__text-line--4 {
+  font-size: 50px;
+  font-weight: 400;
+  // color: #fff;
+  color: $yellow;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.app__text-line--3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.app__text-line--2 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $primary;
+}
+
+.app__text-line--1 {
+  margin-top: 15px;
+}
+
+.app__text-line--1 img {
+  width: 50px;
+}
+
+.app__text--1 .app__text-line {
+  transform: translate3d(0, -125px, 0);
+  opacity: 0;
+}
+
+.app__text--2 {
+  right: initial;
+  top: 250px;
+  left: 80px;
+  z-index: -1;
+  transition: z-index 1500ms;
+}
+
+.app__text--2 .app__text-line--4 {
+  opacity: 0;
+  transition: transform 1500ms 525ms, opacity 400ms 725ms;
+}
+
+.app__text--2 .app__text-line--3 {
+  opacity: 0;
+  transition: transform 1500ms 450ms, opacity 400ms 650ms;
+}
+
+.app__text--2 .app__text-line--2 {
+  opacity: 0;
+  transition: transform 1500ms 375ms, opacity 400ms 575ms;
+}
+
+.app__text--2 .app__text-line--1 {
+  opacity: 0;
+  transition: transform 1500ms 300ms, opacity 400ms 500ms;
+}
+
+.app__img {
+  position: absolute;
+  transform: translate3d(0, -750px, 0);
+  width: 850px;
+  height: 100%;
+  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  will-change: transform;
+}
+
+.app__img img {
+  min-width: 100%;
+  user-select: none;
+}
+
+.initial .app__img {
+  transform: translate3d(0, 0, 0);
+}
+
+.initial .app__text--1 .app__text-line--1 {
+  transform: translate3d(0, 0, 0);
+  transition: transform 1500ms 1400ms, opacity 400ms 1600ms;
+  opacity: 1;
+}
+
+.initial .app__text--1 .app__text-line--2 {
+  transform: translate3d(0, 0, 0);
+  transition: transform 1500ms 1475ms, opacity 400ms 1675ms;
+  opacity: 1;
+}
+
+.initial .app__text--1 .app__text-line--3 {
+  transform: translate3d(0, 0, 0);
+  transition: transform 1500ms 1550ms, opacity 400ms 1750ms;
+  opacity: 1;
+}
+
+.initial .app__text--1 .app__text-line--4 {
+  transform: translate3d(0, 0, 0);
+  transition: transform 1500ms 1625ms, opacity 400ms 1825ms;
+  opacity: 1;
+}
+
+.active .app__bgimg {
+  transform: translate3d(10px, 0, 0) scale(1.05);
+  transition: transform 5s 850ms ease-in-out;
+}
+
+.active .app__bgimg .app__bgimg-image--2 {
+  opacity: 1;
+  transition: opacity 0ms 1500ms;
+}
+
+.active .app__img {
+  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  transform: translate3d(0, -1410px, 0);
+}
+
+.active .app__text--1 {
+  z-index: -1;
+  transition: z-index 0ms 1500ms;
+}
+
+.active .app__text--1 .app__text-line--1 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 1500ms 300ms, opacity 400ms 500ms;
+  opacity: 0;
+}
+
+.active .app__text--1 .app__text-line--2 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 1500ms 375ms, opacity 400ms 575ms;
+  opacity: 0;
+}
+
+.active .app__text--1 .app__text-line--3 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 1500ms 450ms, opacity 400ms 650ms;
+  opacity: 0;
+}
+
+.active .app__text--1 .app__text-line--4 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 1500ms 525ms, opacity 400ms 725ms;
+  opacity: 0;
+}
+
+.active .app__text--2 {
+  z-index: 1;
+}
+
+.active .app__text--2 .app__text-line--1 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 2500ms 1100ms, opacity 1300ms 1300ms;
+  opacity: 1;
+}
+
+.active .app__text--2 .app__text-line--2 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 2500ms 1175ms, opacity 1300ms 1575ms;
+  opacity: 1;
+}
+
+.active .app__text--2 .app__text-line--3 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 2500ms 1250ms, opacity 1300ms 1850ms;
+  opacity: 1;
+}
+
+.active .app__text--2 .app__text-line--4 {
+  transform: translate3d(0, -125px, 0);
+  transition: transform 2500ms 1325ms, opacity 1300ms 2125ms;
+  opacity: 1;
+}
+
+.mouse {
+  position: relative;
+  margin-right: 20px;
+  min-width: 50px;
+  height: 80px;
+  border-radius: 30px;
+  border: 5px solid rgba(255, 255, 255, .8);
+}
+
+.mouse:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: scroll 1s infinite alternate;
+}
+
+@keyframes scroll {
+  100% {
+    transform: translate(-50%, 15px);
+  }
+}
+
+.pages {
+  margin-left: 20px;
+}
+
+.pages__list {
+  list-style-type: none;
+}
+
+.pages__item {
+  position: relative;
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+
+.pages__item:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0, 0);
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0;
+  transition: 500ms;
+}
+
+.pages__item:hover:after {
+  transform: translate(-50%, -50%) scale(1, 1);
+  opacity: 1;
+}
+
+.page__item-active:after {
+  transform: translate(-50%, -50%) scale(1, 1);
+  opacity: 1;
+}
+
+.icon-link {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 50px;
+}
+
+.icon-link img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.icon-link--twitter {
+  left: auto;
+  right: 5px;
+}
+
+//main page finished.....................................//
+
+
+//info section..........................................//
+.info {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__content {
+    flex-basis: 50%;
+
+    &-text {
+      color: $text;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    &-span {
+      display: block;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+  }
+
+  &__bg {
+    flex-basis: 50%;
+
+    &-img {
+      margin-left: 200px;
+      width: 300px;
+      object-fit: cover;
+    }
+  }
+}
+
+//info finished.......................................//
+
+//benefits and programs...........................//
+.programs {
+  padding-bottom: 100px;
+}
+
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  transform: translateY(80px);
+  padding: 0;
+  // background-color: $dark;
+  height: auto;
+}
+
+
+$c_0: #000000;
+$c_1: #353540;
+
+.l-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 760px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &--1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    max-width: 800px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+.b-game-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-bottom: 150%;
+  perspective: 1000px;
+
+  &--1 {
+    padding-bottom: 55%;
+  }
+
+  &__cover {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-size: cover;
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+    transform-origin: top center;
+    will-change: transform;
+    transform: skewX(.001deg);
+    transition: transform .35s ease-in-out;
+
+    // Gloss 
+
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      z-index: 100;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 120%;
+      background: linear-gradient(226deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 35%, rgba(255, 255, 255, 0.2) 42%, rgba(255, 255, 255, 0) 60%);
+      transform: translateY(-20%);
+      will-change: transform;
+      transition: transform .65s cubic-bezier(0.18, 0.9, 0.58, 1);
+    }
+
+  }
+
+  &:hover &__cover {
+    transform: rotateX(7deg) translateY(-6px);
+
+    &::after {
+      transform: translateY(0%);
+    }
+
+  }
+
+  // Shadows
+
+  &::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: rgba($c_0, 0.5);
+    box-shadow: 0 6px 12px 12px rgba($c_0, 0.4);
+    will-change: opacity;
+    transform-origin: top center;
+    transform: skewX(.001deg);
+    transition: transform .35s ease-in-out, opacity .5s ease-in-out;
+  }
+
+  &:hover::before {
+    opacity: 0.6;
+    transform: rotateX(7deg) translateY(-6px) scale(1.05);
+  }
+
+
+}
+
+.b-game-card__cover {
+  padding: 30px 15px;
+  color: #fff;
+}
+
+.b-game-card__cover {
+  background-position: left center;
+  background-size: cover;
+}
+
+
+.programs__info-title {
+  color: $primary;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.programs__info-text {
+  margin-top: 10px;
+  margin-bottom: 45px;
+  font-weight: 300;
+  text-align: center;
+
+  &--1 {
+    margin-bottom: 90px;
+  }
+}
+
+.main-benefits__text {
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.programs__info-item {
+  position: relative;
+  margin-bottom: 17px;
+  padding-left: 20px;
+  color: #fff;
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.2;
+
+  &:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 7px;
+    background-color: $primary;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+    border-radius: 100%;
+  }
+}
+
+.button,
+.programs__download {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $dark;
+  // color: #fff;
+  color: $yellow;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  transition: all 0.4s;
+
+  &:hover {
+    color: $primary;
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+//programs finished.................//
+
+//footer.............................//
+.footer {
+  padding: 50px 10px;
+  background-color: $dark;
+  // color: #fff;
+  color: $yellow;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__col {
+    flex-basis: 25%;
+  }
+
+  &__logo {
+    position: static;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    margin-bottom: 7px;
+
+    font-size: 14px;
+    transition: all 0.4s;
+
+    &:hover {
+      color: $primary;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+
+    &-link {
+      position: relative;
+      margin-bottom: 10px;
+      // color: rgba(255, 255, 255, 0.5);
+      color: $yellow;
+      font-size: 14px;
+      line-height: 1.5;
+      padding-left: 25px;
+      transition: all 0.4s;
+
+      &:before {
+        position: absolute;
+        content: '';
+        width: 15px;
+        height: 15px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      &--address {
+        &:before {
+          background-image: url('../img/icons/placeholder.svg');
+        }
+      }
+
+      &--phone {
+        &:before {
+          background-image: url('../img/icons/call.svg');
+        }
+      }
+
+      &--mail {
+        &:before {
+          background-image: url('../img/icons/mail.svg');
+        }
+      }
+
+      &:hover {
+        color: $primary;
+      }
+
+    }
+  }
+
+  &__social {
+    margin-top: 30px;
+    max-width: 150px;
+    margin-left: auto;
+  }
+}
+
+//section-form.............................//
+// .section-form__title {
+//   padding-bottom: 60px;
+// }
+
+.app__mobile {
+  display: none;
+  min-width: 400px;
+  height: 250px;
+  margin-top: -170px;
+
+  &-title {
+    text-align: center;
+    // color: #fff;
+    color: $primary;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+}

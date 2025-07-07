@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Global Residency and Citizenship</title>
+  <link rel="shortcut icon" href="img/worldwide.png" type="image/x-icon" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Playfair+Display+SC&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+  <header class="header about__header">
+    <div class="container">
+      <div class="header__top">
+        <a href="index.html" class="logo header__logo">European Citizenship</a>
+
+      </div>
+    </div>
+  </header>
+  <header class="header__bottom about__header__bottom">
+    <nav class="menu header__menu">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="index.html" class="header__link">
+            Home
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="about.html" class="header__link">
+            About
+          </a>
+        </li>
+        <li class="header__item header__item--countries">
+          <a href="#" class="header__link header__item-link">
+            Countries
+          </a>
+          <ul class="list-countries">
+            <li class="list-countries__item"><a class="list-countries__link" href="malta.html">Malta</a></li>
+            <li class="list-countries__item"><a href="hungary.html">Hungary</a></li>
+            <li class="list-countries__item"><a href="bulgaria.html">Bulgaria</a></li>
+          </ul>
+        </li>
+        <li class="header__item">
+          <a href="contacts.html" class="header__link">
+            Contacts
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-btn about__header-btn">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+  <nav class="mobile__menu">
+    <div class="mobile__close-btn"></div>
+    <div class="mobile-menu__list">
+      <ul class="mobile__list">
+        <li><a class="mobile__link" href="index.html">Home</a></li>
+        <li><a class="mobile__link" href="about.html">About</a></li>
+        <li><a class="mobile__link" href="malta.html">Malta</a></li>
+        <li><a class="mobile__link" href="bulgaria.html">Bulgaria</a></li>
+        <li><a class="mobile__link" href="hungary.html">Hungary</a></li>
+        <li><a class="mobile__link" href="contacts.html">Contacts</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <section class="contacts-hero parallax-window" data-parallax="scroll" data-image-src="img/countries/abudhabi3.jpg">
+    <div class="container">
+      <h2 class="contacts-hero__title">Contact Us</h2>
+    </div>
+  </section>
+  <div class="contacts">
+    <div class="container">
+      <div class="contacts__wrapper">
+        <div class="contacts__wrapper-info wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
+          <div class="footer__inner">
+            <a href="tel:025089043" class="footer__inner-link--phone footer__inner-link contacts__inner-link">
+              02 500 9000
+            </a>
+            <a href="mailto:kenneth@european-bond.com"
+              class="footer__inner-link--mail footer__inner-link contacts__inner-link">
+              euro@european-passport.com
+            </a>
+            <a href="#" class="footer__inner-link--address footer__inner-link contacts__inner-link">
+              12th floor,Capital Plaza Towers,<br> Khalifa street St, Abu Dhabi, UAE
+            </a>
+
+          </div>
+        </div>
+        <div class="contacts__wrapper-form wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.2s">
+          <form action="mail.php" method="POST" class="form contacts__form">
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="The Blue Water">
+            <input type="hidden" name="admin_email" value="nata.web.des@gmail.com">
+            <input type="hidden" name="form_subject" value="Form Subject">
+            <div class="input-group contacts__input-group">
+              <label for="userName" class="label contacts__label">Name</label>
+              <input name="userName" type="text" class="input contacts__input" id="userName">
+            </div>
+            <div class="input-group contacts__input-group">
+              <label for="userPhone" class="label contacts__label">Phone</label>
+              <input name="userPhone" type="tel" class="input contacts__input" id="userPhone">
+            </div>
+            <div class="input-group contacts__input-group">
+              <label for="userEmail" class="label contacts__label">Email</label>
+              <input name="userEmail" type="email" class="input contacts__input" id="userEmail">
+            </div>
+            <div class="input-group contacts__input-group">
+              <label for="userQuestion" class="label contacts__label">Message</label>
+              <textarea name="userQuestion" class="input contacts__textarea" id="userQuestion"
+                placeholder="Enter Your Question:"></textarea>
+              <button class="button contacts__button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map contacts__map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.620880748754!2d54.36566941467888!3d24.498589465699474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e66601c0acfb7%3A0x8015fe89f803b0c4!2sCapital%20Plaza%20Towers!5e0!3m2!1sen!2sae!4v1598547545650!5m2!1sen!2sae"
+      height="400" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col">
+          <a href="index.html" class="logo footer__logo">European Citizenship</a>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">
+                Home
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="about.html" class="footer__link">
+                About
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="" class="footer__link">
+                Countries
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="contacts.html" class="footer__link">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col--address">
+          <div class="footer__inner">
+            <a href="tel:025089043" class="footer__inner-link--phone footer__inner-link">
+              02 500 9000
+            </a>
+            <a href="mailto:kenneth@european-bond.com" class="footer__inner-link--mail footer__inner-link">
+              euro@european-passport.com
+            </a>
+            <a href="#" class="footer__inner-link--address footer__inner-link">
+              19th floor,Al Ghaith Tower, Hamdan Bin Mohammed St, Abu Dhabi, UAE
+            </a>
+
+          </div>
+        </div>
+        <div class="footer__col footer__col-social">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="success">
+    <div class="success__modal">
+      <button class="success__close"></button>
+      <h3 class="success__title">
+        Your request
+        <span class="span__success">was sent successfully</span>
+      </h3>
+      <p class="thanks__text">
+        Thank you for contacting Global Residency. We have received your
+        message, and our representatives will contact you as soon as possible.
+        <a class="thanks__link" href="index.html">Back to main page</a>
+      </p>
+    </div>
+    <!--content finished-->
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
